@@ -346,6 +346,8 @@ public:
   void println(String chaine);
   void println();
   void printChar(char caractere);  // Caractère du jeu G0 exceptés ceux codés 0x60, 0x7E, 0x7F.
+  size_t printRaw(const char* buffer, const int size);
+
   // void printDiacriticChar(unsigned char caractere);  // Caractère avec accent, tréma ou cédille.  // Obsolète depuis le 26/02/2023
   void printSpecialChar(byte b);  // Caractère du jeu G2. Voir plus haut, au niveau de 1.2.3, les constantes possibles.
   byte getCharByte(char caractere);

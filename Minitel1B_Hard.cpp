@@ -653,6 +653,19 @@ void Minitel::printSpecialChar(byte b) {
   writeByte(SS2);  // Accès au jeu G2 (voir p.103)
   writeByte(b);
 }
+
+/*--------------------------------------------------------------------*/
+
+
+size_t Minitel::printRaw(const char* buffer, const int size) {
+  int index = 0;
+  while (index < size) {
+    writeByte(buffer[index++]);
+  }
+  return index;
+}
+
+
 /*--------------------------------------------------------------------*/
 
 byte Minitel::getCharByte(char caractere) {
