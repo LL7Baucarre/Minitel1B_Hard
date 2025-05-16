@@ -1,4 +1,9 @@
 # Minitel1B_Hard
+
+Fork par le Minitel Hacking Crew ! 
+
+Un énorme merci au travaux effectués pas nos précédesseurs sur ce projet !
+
 <b>Minitel Library for Arduino (with HardwareSerial)</b>
 
 Documentation utilisée : Spécifications Techniques d'Utilisation du Minitel 1B<br>
